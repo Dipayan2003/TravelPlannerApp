@@ -113,7 +113,7 @@ st.write("AI-Powered Multi-Agent System for Modern Travelers")
 col1, col2, col3, col4, col5 = st.columns([2, 2, 1.5, 1.5, 1.5])
 
 with col1:
-    origin_input = st.text_input("Origin", value="JFK", placeholder="City or Airport Code")
+    origin_input = st.text_input("Origin", placeholder="City or Airport Code")
 with col2:
     dest_input = st.text_input("Destination", placeholder="Where to?")
 with col3:
